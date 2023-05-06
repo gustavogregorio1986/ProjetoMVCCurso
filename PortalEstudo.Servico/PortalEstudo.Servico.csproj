@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PortalEstudo.Data\PortalEstudo.Data.csproj" />
+    <ProjectReference Include="..\PortalEstudo.Dominio\PortalEstudo.Dominio.csproj" />
+  </ItemGroup>
+
+</Project>
