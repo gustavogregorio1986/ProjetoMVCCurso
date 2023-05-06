@@ -1,0 +1,33 @@
+create database curso_db
+
+use curso_db
+
+create table Login(
+Id              int           identity(1,1),
+Usuario         nvarchar(50)      not null,
+Senha           nvarchar(100)     not null,
+Email           nvarchar(60)      not null,
+primary key(Id))
+
+select * from Login
+
+
+create table Aluno(
+Id             int            identity(1,1),
+NomeAluno       nvarchar(100)     not null,
+EmailAluno      nvarchar(60)      not null,
+Id_login       int               not null,
+primary key(Id),
+foreign key(id_Login) references Login)
+
+select * from Aluno
+
+create table Professor(
+Id             int            identity(1,1),
+NomePof        nvarchar(100)     not null,
+EmailProf      nvarchar(60)      not null,
+Id_login       int               not null,
+primary key(Id),
+foreign key(id_Login) references Login)
+
+select * from Professor
