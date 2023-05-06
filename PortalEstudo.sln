@@ -11,13 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{4791
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servico", "Servico", "{3D486760-0F7A-4D6B-A0BA-D2DFECB13075}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalEstudo", "PortalEstudo\PortalEstudo.csproj", "{BB506C60-BFC2-4EF3-A306-FDDAE0450C49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortalEstudo.Data", "PortalEstudo.Data\PortalEstudo.Data.csproj", "{2A242D38-D55F-4925-A257-17E18512096B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalEstudo.Data", "PortalEstudo.Data\PortalEstudo.Data.csproj", "{2A242D38-D55F-4925-A257-17E18512096B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortalEstudo.Dominio", "PortalEstudo.Dominio\PortalEstudo.Dominio.csproj", "{58A77F11-822D-407D-B49C-78D4D01F9A06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalEstudo.Dominio", "PortalEstudo.Dominio\PortalEstudo.Dominio.csproj", "{58A77F11-822D-407D-B49C-78D4D01F9A06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortalEstudo.Servico", "PortalEstudo.Servico\PortalEstudo.Servico.csproj", "{9D2FFDE8-B111-43FA-A64D-89339536DDD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalEstudo.Servico", "PortalEstudo.Servico\PortalEstudo.Servico.csproj", "{9D2FFDE8-B111-43FA-A64D-89339536DDD5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalEstudo", "PortalEstudo\PortalEstudo.csproj", "{48C2CFB0-8934-4072-8833-D44DA288D498}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BB506C60-BFC2-4EF3-A306-FDDAE0450C49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BB506C60-BFC2-4EF3-A306-FDDAE0450C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BB506C60-BFC2-4EF3-A306-FDDAE0450C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BB506C60-BFC2-4EF3-A306-FDDAE0450C49}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2A242D38-D55F-4925-A257-17E18512096B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2A242D38-D55F-4925-A257-17E18512096B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A242D38-D55F-4925-A257-17E18512096B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,15 +37,19 @@ Global
 		{9D2FFDE8-B111-43FA-A64D-89339536DDD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D2FFDE8-B111-43FA-A64D-89339536DDD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D2FFDE8-B111-43FA-A64D-89339536DDD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C2CFB0-8934-4072-8833-D44DA288D498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C2CFB0-8934-4072-8833-D44DA288D498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C2CFB0-8934-4072-8833-D44DA288D498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C2CFB0-8934-4072-8833-D44DA288D498}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{BB506C60-BFC2-4EF3-A306-FDDAE0450C49} = {293EAE6A-036B-4A96-9231-2E57F4E7B3D2}
 		{2A242D38-D55F-4925-A257-17E18512096B} = {6BE8EFD7-FB99-487D-9DEE-2C347EE85E8C}
 		{58A77F11-822D-407D-B49C-78D4D01F9A06} = {479128B1-283D-4BC8-B1BE-4480A4B103C4}
 		{9D2FFDE8-B111-43FA-A64D-89339536DDD5} = {3D486760-0F7A-4D6B-A0BA-D2DFECB13075}
+		{48C2CFB0-8934-4072-8833-D44DA288D498} = {293EAE6A-036B-4A96-9231-2E57F4E7B3D2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7E3740B5-FAB4-4367-8829-6A736FD8B4E3}
